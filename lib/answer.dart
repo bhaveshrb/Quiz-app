@@ -4,7 +4,7 @@ class Answer extends StatelessWidget {
   final VoidCallback selectHandler;
   final String answerText;
 
-  Answer(this.selectHandler, this.answerText) ;
+  Answer(this.selectHandler, this.answerText);
   //const ({ Key? key }) : super(key: key);
 
   @override
@@ -13,7 +13,7 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       child: RaisedButton(
         color: Colors.blue,
-        textColor: Colors.white,
+        textColor: Colors.black,
         child: Text(answerText),
         onPressed: selectHandler,
       ),
